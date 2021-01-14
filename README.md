@@ -1,9 +1,24 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome Debora Baddipudi,
+Welcome, to TaskManagement Application. its features are 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+The home page of the task manager application displays a summary of tasks. That summary information is comprised of the task name, due date, whether or not it's an urgent task, and once you click to expand more, you will see the task category, description, and creator. Using one of dependencies that come with Flask (Werkzeug), user authentication and authorization. Users will be able to register, see their profile, log out, and log back in again. Registered users will also be able to add a new task, which includes selecting a due date using Materialize's datepicker component, and toggling a switch to mark the task as urgent.
+Users will also be able to edit tasks, but will only be permitted to edit their own tasks, not any of the tasks submitted by others. In addition to editing their tasks, users will be able to delete their own tasks as well. Whether a user is logged in or not, we'll also learn how to build a basic search function, which will filter tasks based on the user's query. You will also see how to manage the task categories list, but make it secure to only be available to an Admin user. We're consistent in our use of the Materialize framework, which means that our app will also be fully responsive by using their grid-based classes.
 
+I have used Code Institute student template for Gitpod. The templae includes preinstalled all of the tools you need to get started. 
+the template used can be found on -  https://github.com/Code-Institute-Org/gitpod-full-template
+
+## This application uses Materialize is a responsive front-end framework in the same exact way as Bootstrap.
+
+## This application backend is built using
+click==7.1.2
+dnspython==2.1.0
+Flask==1.1.2
+Flask-PyMongo==2.3.0
+itsdangerous==1.1.0
+pymongo==3.11.2
+Werkzeug==1.0.1
+
+## 
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
@@ -22,17 +37,6 @@ Another blue button should appear to click: *Open Browser*.
 
 In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
 
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 --------
 
